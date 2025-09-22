@@ -39,7 +39,9 @@
             "targetSdkVersion": 34
           }
         }
-      ]
+      ],
+      "expo-asset",
+      "expo-font"
     ],
     "web": {
       "favicon": "./assets/favicon.png"
