@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "xevivu",
+    "slug": "xevivu",
+    "scheme": "xevivu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.xevivu.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      "expo-image-picker",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 24,
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34
+          }
+        }
+      ]
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c4eeb0e8-380f-4263-a8e8-d499f4a205b6"
+      }
+    },
+    "owner": "tanha"
+  }
+}
